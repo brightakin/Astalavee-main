@@ -2,6 +2,7 @@ import { ThemeProvider } from "@mui/material";
 import { Button, Container } from "@mui/material";
 import { useEffect } from "react";
 import AppBar from "./components/appBar";
+import LoginPage from "./components/login";
 import Banner from "./components/Banner";
 import Footer from "./components/footer";
 import MarketingPage from "./components/MarketingPage";
@@ -11,6 +12,7 @@ function App() {
   useEffect(() => {
     document.title = "Astalavee - Home";
   }, []);
+  
   return (
     <ThemeProvider theme={theme}>
       <Container
@@ -19,10 +21,11 @@ function App() {
           background: "#fff",
         }}
       >
-        <AppBar />
+        {/* <AppBar />
         <Banner />
         <MarketingPage />
-        <Footer />
+        <Footer /> */}
+        <LoginPage/>
       </Container>
     </ThemeProvider>
   );
