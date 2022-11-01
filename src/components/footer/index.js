@@ -14,46 +14,46 @@ export default function Footer() {
   return (
     <div className="relative top-[925px] ">
       <div>
-        <p className="absolute top-[40px] left-[100px] w-[1049px] h-[40px] text-[#3A3A3A] text-center leading-[40px] font-bold text-[52px] ">
+        <p className="absolute top-[3000px] sm:top-[40px] left-[100px] w-[1049px] h-[40px] text-[#3A3A3A] text-center leading-[40px] font-bold text-[52px] ">
           You control all your business on one platform
         </p>
-        <p className="absolute top-[120px] left-[100px] h-[75px] w-[1029px] text-center leading-[35px] font-normal text-[25px] text-[#A6A6AA] ">
+        <p className="absolute top-[3000px] sm:top-[120px] left-[100px] h-[75px] w-[1029px] text-center leading-[35px] font-normal text-[25px] text-[#A6A6AA] ">
           One platform with all the ecommerce and creativity features for all
           creator. You just need to start, run and grow your business
         </p>
       </div>
       <div>
         <img
-          className="absolute h-[510px] w-[500px] left-[59px] top-[344px] rounded-[20px] "
+          className="absolute h-[510px] w-[500px] left-[59px] top-[3000px] sm:top-[344px] rounded-[20px] "
           src={womanImg}
           alt=""
         />
         <img
-          className="absolute h-[459px] w-[228px] top-[455px] left-[419px] rounded-[25px] "
+          className="absolute h-[459px] w-[228px] top-[3000px] sm:top-[455px] left-[419px] rounded-[25px] "
           src={checkoutImg}
           alt=""
         />
       </div>
       <div>
-        <p className="absolute top-[427px] left-[650px] h-[128px] w-[656px] text-[52px] font-bold leading-[45px] text-[#3a3a3a] text-left ">
+        <p className="absolute top-[3000px] sm:top-[427px] left-[650px] h-[128px] w-[656px] text-[52px] font-bold leading-[45px] text-[#3a3a3a] text-left ">
           Create your digital contents and sell
         </p>
-        <p className="absolute top-[567px] left-[650px] h-[120px] w-[656px] text-[28px] text-[#3a3a3a] font-normal leading-[35px] text-left ">
+        <p className="absolute top-[3000px] sm:top-[567px] left-[650px] h-[120px] w-[656px] text-[28px] text-[#3a3a3a] font-normal leading-[35px] text-left ">
           Build the perfect website that suits your product with powerful tools
-          that can help you reach more customers and drive sales with ease.{" "}
+          that can help you reach more customers and drive sales with ease.
         </p>
         <a
           href="#"
-          className="absolute top-[704px] left-[650px] h-[77px] w-[609px] text-[32px] font-extrabold text-left leading-[35px] text-[#9900cc]"
+          className="absolute top-[3000px] sm:top-[704px] left-[650px] h-[77px] w-[609px] text-[32px] font-extrabold text-left leading-[35px] text-[#9900cc]"
         >
           Check the perfect website for you<span>&#8594;</span>
         </a>
       </div>
       <div>
-        <p className="absolute top-[1250px] left-[64px] h-[68px] w-[656px] text-[52px] leading-[45px] text-left font-bold ">
+        <p className="absolute top-[2000px] sm:top-[1250px] left-[64px] h-[68px] w-[656px] text-[52px] leading-[45px] text-left font-bold ">
           Market Your products
         </p>
-        <p className="absolute top-[1363px] left-[64px] h-[120px] w-[656px] text-[28px] font-normal leading-[35px] text-left text-[#3a3a3a] ">
+        <p className="absolute top-[2500px] sm:top-[1363px] left-[64px] h-[120px] w-[656px] text-[28px] font-normal leading-[35px] text-left text-[#3a3a3a] ">
           Build the perfect website that suits your product with powerful tools
           that can help you reach more customers and drive sales with ease.{" "}
         </p>
@@ -66,12 +66,12 @@ export default function Footer() {
       </div>
       <div>
         <img
-          className="absolute top-[1086px] left-[769px] h-[616px] w-[454px] rounded-[30px] "
+          className="absolute top-[2500px] sm:top-[1086px] left-[769px] h-[616px] w-[454px] rounded-[30px] "
           src={googlePhoneImg}
           alt=""
         />
         <img
-          className="absolute top-[1498px] left-[1000px] h-[264px] w-[281px] rounded-[20px]"
+          className="absolute top-[2000px] sm:top-[1498px] left-[1000px] h-[264px] w-[281px] rounded-[20px]"
           src={ipadImg}
           alt=""
         />
@@ -87,7 +87,7 @@ export default function Footer() {
         <p className="absolute top-[2049px] left-[730px] h-[68px] w-[656px] text-left text-[52px] font-bold leading-[45px] ">
           Manage Everything
         </p>
-        <p className="absolute top-[2162px] left-[730px] h-[120px] w-[656px] text-[28px] text-left leading-[35px] ">
+        <p className="absolute top-[2000px] sm:top-[2162px] left-[730px] h-[120px] w-[656px] text-[28px] text-left leading-[35px] ">
           Build the perfect website that suits your product with powerful tools
           that can help you reach more customers and drive sales with ease.
         </p>
@@ -102,7 +102,7 @@ export default function Footer() {
         <p className="absolute top-[2699px] left-[64px] h-[68px] w-[814px] text-[#3a3a3a] text-[52px] font-bold leading-[45px] text-left ">
           Receive Payment all over the world
         </p>
-        <p className="absolute top-[2811px] left-[64px] h-[121px] w-[814px] text-[32px] font-normal leading-[35px] text-left text-[#3a3a3a] ">
+        <p className="absolute top-[2000px] sm:top-[2811px] left-[64px] h-[121px] w-[814px] text-[32px] font-normal leading-[35px] text-left text-[#3a3a3a] ">
           Build the perfect website that suits your product with powerful tools
           that can help you reach more customers and drive sales with ease.{" "}
         </p>
@@ -113,7 +113,7 @@ export default function Footer() {
           Check the perfect website for you<span>&#8594;</span>
         </a>
         <img
-          className="absolute top-[3017px] left-[180px] h-[672px] w-[1080px]  "
+          className="absolute top-[4000px] sm:top-[3017px] left-[180px] h-[672px] w-[1080px]  "
           src={mapImg}
           alt=""
         />
@@ -197,7 +197,7 @@ export default function Footer() {
           Legal
         </a>
         <a
-          href="#"
+          href="3"
           className="absolute top-[4550px] left-[1089px] h-[38px] w-[402] text-[#3a3a3a] text-[24px] font-normal leading-[28px] text-center "
         >
           Terms & Conditions

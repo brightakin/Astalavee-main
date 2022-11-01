@@ -8,42 +8,42 @@ import unlockImg from "../../assets/unlock.png";
 
 export default function MarketingPage() {
   return (
-    <div className="relative top-[800px] h-[1644px] w-[2000px] sm:w-[1440px] bg-[#9900cc]">
+    <div className="relative top-[2500px] sm:top-[800px] h-[6000px] sm:h-[1644px] w-[2000px] sm:w-[1440px] bg-[#9900cc]">
       <div>
-        <h2 className="absolute h-[40px] w-[2500px] sm:w-[788px] left-[20px] sm:left-[62px] top-[89px] text-[#F8F7FA] text-[80px] sm:text-[52px] font-extrabold sm:font-bold text-left leading-[40px] ">
+        <h2 className="absolute h-[40px] w-[3000px] sm:w-[788px] left-[110px] sm:left-[62px] top-[89px] text-[#F8F7FA] text-[100px] sm:text-[52px] font-extrabold sm:font-bold text-left leading-[40px] ">
           Start selling with with Astalavee
         </h2>
-        <p className="absolute top-[200px] left-[40px] sm:left-[62px] h-[75px] w-[1500px] sm:w-[1000px] text-[60px] sm:text-[22px] font-normal leading-[60px] sm:leading-[35px] text-center sm:text-left text-[#ffffff] ">
+        <p className="absolute top-[200px] left-[110px] sm:left-[62px] h-[75px] w-[1500px] sm:w-[1000px] text-[60px] sm:text-[22px] font-normal leading-[60px] sm:leading-[35px] text-center sm:text-left text-[#ffffff] ">
           Build the perfect website that suits your product with powerful tools
           that can help you reach more customers and drive sales with ease.{" "}
         </p>
         <a
           href=""
-          className="absolute top-[450px] sm:top-[258px] left-[62px] h-[48px] w-[8000px] sm:w-[498px] text-[40px] sm:text-[25px] font-extrabold text-left leading-[35px] text-[#ffffff]"
+          className="absolute top-[600px] sm:top-[270px] left-[62px] h-[48px] w-[8000px] sm:w-[498px] text-[60px] sm:text-[25px] font-extrabold text-left leading-[35px] text-[#ffffff]"
         >
           Check the perfect website for you<span>&#8594;</span>
         </a>
       </div>
       <div>
-        <button className="absolute top-[500px] sm:top-[334px]  left-[59px] h-[500px] w-[250px] ">
+        <button className="absolute top-[774px] sm:top-[334px]  left-[59px] h-[500px]  sm:w-[250px] ">
           <img src={grid1} alt="" />
           <span className="font-bold text-[18px] leading-[35px] text-center text-[#ffffff]">
             One-product Page site
           </span>
         </button>
-        <button className="absolute top-[334px] sm:visible invisible left-[375px] h-[500px] w-[250px] text-[#ffffff]">
+        <button className="absolute top-[1500px] sm:top-[334px]  left-[375px] h-[500px] w-[250px] text-[#ffffff]">
           <img src={grid2} alt="" />
           <span className="font-bold text-[18px] leading-[35px] text-center text-[#ffffff]">
             Online-course Design
           </span>
         </button>
-        <button className="absolute top-[334px] sm:visible invisible left-[685px] h-[500px] w-[250px]">
+        <button className="absolute top-[2200px] sm:top-[334px]  left-[685px] h-[500px] w-[250px]">
           <img src={grid3} alt="" />
           <span className="font-bold text-[18px] leading-[35px] text-center text-[#ffffff]">
             Online-training sales page
           </span>
         </button>
-        <button className="absolute top-[334px] sm:visible invisible left-[985px] h-[500px] w-[250px]">
+        <button className="absolute top-[3000px] sm:top-[334px]  left-[985px] h-[500px] w-[250px]">
           <img src={grid4} alt="" />
           <span className="font-bold text-[18px] leading-[35px] text-center text-[#ffffff]">
             Coaching Website Design

@@ -6,6 +6,7 @@ import {
 } from "../../styles/appBar";
 import headerImage from "../../assets/logo.png";
 import { Button, ListItemButton, ListItemText } from "@mui/material";
+import { Link } from "react-router-dom";
 
 export default function AppBarDesktop({ matches }) {
   return (
@@ -14,9 +15,15 @@ export default function AppBarDesktop({ matches }) {
         <img src={headerImage} className="h-8" alt="Astalavee" />
       </AppBarImage>
       <AppBarList type="row">
-        <ListItemText primary="Features" />
-        <ListItemText primary="Pricing" />
-        <ListItemText primary="Resources" />
+        <ListItemButton>
+          <Link to="/">Features</Link>
+        </ListItemButton>
+        <ListItemButton>
+          <Link to="/">Pricing</Link>
+        </ListItemButton>
+        <ListItemButton>
+          <Link to="/">Resources</Link>
+        </ListItemButton>
         <AppBarBtn>
           <Button
             sx={{

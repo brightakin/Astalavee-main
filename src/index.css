@@ -5,14 +5,15 @@
 @layer base {
   html {
     font-family: Lato;
-    position: relative;
+    overflow-x: hidden;
+    margin-left: 0;
   }
 
   input::placeholder {
     height: 25px;
     width: 245px;
     font-family: Lato;
-    font-size: 20px;
+    font-size: 24px;
     font-weight: 400;
     line-height: 24px;
     letter-spacing: 0em;

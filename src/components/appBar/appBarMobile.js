@@ -13,7 +13,7 @@ export default function AppBarMobile({ matches }) {
       <AppBarImage>
         <img
           src={headerImage}
-          className="h-[50px] w-[500px] absolute left-[64px] sm:h-6"
+          className="h-[100px] absolute left-[64px] sm:h-6"
           alt="Astalavee"
         />
       </AppBarImage>

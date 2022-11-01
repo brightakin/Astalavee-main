@@ -1,11 +1,13 @@
 import { ThemeProvider } from "@mui/material";
-import { Button, Container } from "@mui/material";
-import { useEffect } from "react";
+import { Fragment, useEffect } from "react";
 import AppBar from "./components/appBar";
 import Banner from "./components/Banner";
 import Footer from "./components/footer";
 import MarketingPage from "./components/MarketingPage";
 import theme from "./styles/theme";
+import { Switch, Route } from "react-router-dom";
+import FirstTimeDashboard from "./components/Dashboard/FirstTimeDashboard";
+import UserDashboard from "./components/Dashboard/UserDashboard";
 
 function App() {
   useEffect(() => {
@@ -13,17 +15,22 @@ function App() {
   }, []);
   return (
     <ThemeProvider theme={theme}>
-      <Container
-        maxWidth="xl"
-        sx={{
-          background: "#fff",
-        }}
-      >
-        <AppBar />
-        <Banner />
-        <MarketingPage />
-        <Footer />
-      </Container>
+      <Fragment>
+        <Switch>
+          <Route path="/" exact>
+            <AppBar />
+            <Banner />
+            <MarketingPage />
+            <Footer />
+          </Route>
+          <Route path="/dashboard">
+            <FirstTimeDashboard />
+          </Route>
+          <Route path="/userdashboard">
+            <UserDashboard />
+          </Route>
+        </Switch>
+      </Fragment>
     </ThemeProvider>
   );
 }
