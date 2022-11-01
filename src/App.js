@@ -1,6 +1,7 @@
 import { ThemeProvider } from "@mui/material";
 import { Fragment, useEffect } from "react";
 import AppBar from "./components/appBar";
+import LoginPage from "./components/login";
 import Banner from "./components/Banner";
 import Footer from "./components/footer";
 import MarketingPage from "./components/MarketingPage";
@@ -13,6 +14,7 @@ function App() {
   useEffect(() => {
     document.title = "Astalavee - Home";
   }, []);
+
   return (
     <ThemeProvider theme={theme}>
       <Fragment>
@@ -28,6 +30,10 @@ function App() {
           </Route>
           <Route path="/userdashboard">
             <UserDashboard />
+          </Route>
+          <Route path="/login">
+            {" "}
+            <LoginPage />
           </Route>
         </Switch>
       </Fragment>
